@@ -1,1 +1,1 @@
-# IGP---Bright-Light-Therapy
+# IGP-bright_light_therapy
