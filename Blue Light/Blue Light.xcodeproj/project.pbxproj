@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73723EE29B91C4A0038C5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73723ED29B91C4A0038C5A4 /* AppDelegate.swift */; };
+		E761836429C0A3AF003D02A9 /* DataController .swift in Sources */ = {isa = PBXBuildFile; fileRef = E761836329C0A3AF003D02A9 /* DataController .swift */; };
+		E761836729C0E8D6003D02A9 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E761836629C0E8D6003D02A9 /* FirebaseFirestoreSwift */; };
+		E787223B29AAD69800A8C6FB /* Blue_LightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787223A29AAD69800A8C6FB /* Blue_LightApp.swift */; };
+		E787223D29AAD69800A8C6FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787223C29AAD69800A8C6FB /* ContentView.swift */; };
+		E787223F29AAD69A00A8C6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E787223E29AAD69A00A8C6FB /* Assets.xcassets */; };
+		E787224229AAD69A00A8C6FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E787224129AAD69A00A8C6FB /* Preview Assets.xcassets */; };
+		E787224929AAD78300A8C6FB /* ConnectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787224829AAD78300A8C6FB /* ConnectView.swift */; };
+		E787224B29AAD79800A8C6FB /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787224A29AAD79800A8C6FB /* QuizView.swift */; };
+		E787224D29AAD7B100A8C6FB /* ShowDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787224C29AAD7B100A8C6FB /* ShowDataView.swift */; };
+		E788663D29BB78CD00BA7228 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E788663C29BB78CD00BA7228 /* GoogleService-Info.plist */; };
+		E79D420929BA9B6900FB281F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E79D420829BA9B6900FB281F /* FirebaseFirestore */; settings = {ATTRIBUTES = (Required, ); }; };
+		E7D0814229AC087300D2247B /* PeripheralDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0814129AC087300D2247B /* PeripheralDevice.swift */; };
+		E7D0814429AC393700D2247B /* BluetoothController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D0814329AC393700D2247B /* BluetoothController.swift */; };
+		E7E3A32B29B049CD00AEE844 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E3A32A29B049CD00AEE844 /* SettingsView.swift */; };
+		E7F3523129C4C48B0013F9AF /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F3523029C4C48B0013F9AF /* DataModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E73723ED29B91C4A0038C5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E74C500529ABBB7E00DBB376 /* Blue-Light-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Blue-Light-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E761836329C0A3AF003D02A9 /* DataController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataController .swift"; sourceTree = "<group>"; };
+		E787223729AAD69800A8C6FB /* Blue Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E787223A29AAD69800A8C6FB /* Blue_LightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blue_LightApp.swift; sourceTree = "<group>"; };
+		E787223C29AAD69800A8C6FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E787223E29AAD69A00A8C6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E787224129AAD69A00A8C6FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E787224829AAD78300A8C6FB /* ConnectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectView.swift; sourceTree = "<group>"; };
+		E787224A29AAD79800A8C6FB /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		E787224C29AAD7B100A8C6FB /* ShowDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataView.swift; sourceTree = "<group>"; };
+		E788663C29BB78CD00BA7228 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7D0814129AC087300D2247B /* PeripheralDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralDevice.swift; sourceTree = "<group>"; };
+		E7D0814329AC393700D2247B /* BluetoothController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothController.swift; sourceTree = "<group>"; };
+		E7E3A32A29B049CD00AEE844 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E7F3523029C4C48B0013F9AF /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E787223429AAD69800A8C6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79D420929BA9B6900FB281F /* FirebaseFirestore in Frameworks */,
+				E761836729C0E8D6003D02A9 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E761836529C0E8D6003D02A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E787222E29AAD69800A8C6FB = {
+			isa = PBXGroup;
+			children = (
+				E787223929AAD69800A8C6FB /* Blue Light */,
+				E787223829AAD69800A8C6FB /* Products */,
+				E761836529C0E8D6003D02A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E787223829AAD69800A8C6FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E787223729AAD69800A8C6FB /* Blue Light.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E787223929AAD69800A8C6FB /* Blue Light */ = {
+			isa = PBXGroup;
+			children = (
+				E787223A29AAD69800A8C6FB /* Blue_LightApp.swift */,
+				E73723ED29B91C4A0038C5A4 /* AppDelegate.swift */,
+				E74C500529ABBB7E00DBB376 /* Blue-Light-Info.plist */,
+				E788663C29BB78CD00BA7228 /* GoogleService-Info.plist */,
+				E7D0814329AC393700D2247B /* BluetoothController.swift */,
+				E7D0814129AC087300D2247B /* PeripheralDevice.swift */,
+				E761836329C0A3AF003D02A9 /* DataController .swift */,
+				E7F3523029C4C48B0013F9AF /* DataModels.swift */,
+				E7D0814029ABE24B00D2247B /* Views */,
+				E787224029AAD69A00A8C6FB /* Preview Content */,
+				E787223E29AAD69A00A8C6FB /* Assets.xcassets */,
+			);
+			path = "Blue Light";
+			sourceTree = "<group>";
+		};
+		E787224029AAD69A00A8C6FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E787224129AAD69A00A8C6FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7D0814029ABE24B00D2247B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E787223C29AAD69800A8C6FB /* ContentView.swift */,
+				E787224829AAD78300A8C6FB /* ConnectView.swift */,
+				E787224A29AAD79800A8C6FB /* QuizView.swift */,
+				E787224C29AAD7B100A8C6FB /* ShowDataView.swift */,
+				E7E3A32A29B049CD00AEE844 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E787223629AAD69800A8C6FB /* Blue Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E787224529AAD69A00A8C6FB /* Build configuration list for PBXNativeTarget "Blue Light" */;
+			buildPhases = (
+				E787223329AAD69800A8C6FB /* Sources */,
+				E787223429AAD69800A8C6FB /* Frameworks */,
+				E787223529AAD69800A8C6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blue Light";
+			packageProductDependencies = (
+				E79D420829BA9B6900FB281F /* FirebaseFirestore */,
+				E761836629C0E8D6003D02A9 /* FirebaseFirestoreSwift */,
+			);
+			productName = "Blue Light";
+			productReference = E787223729AAD69800A8C6FB /* Blue Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E787222F29AAD69800A8C6FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E787223629AAD69800A8C6FB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E787223229AAD69800A8C6FB /* Build configuration list for PBXProject "Blue Light" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E787222E29AAD69800A8C6FB;
+			packageReferences = (
+				E79D420729BA9B6900FB281F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = E787223829AAD69800A8C6FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E787223629AAD69800A8C6FB /* Blue Light */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E787223529AAD69800A8C6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E787224229AAD69A00A8C6FB /* Preview Assets.xcassets in Resources */,
+				E787223F29AAD69A00A8C6FB /* Assets.xcassets in Resources */,
+				E788663D29BB78CD00BA7228 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E787223329AAD69800A8C6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73723EE29B91C4A0038C5A4 /* AppDelegate.swift in Sources */,
+				E787224929AAD78300A8C6FB /* ConnectView.swift in Sources */,
+				E7F3523129C4C48B0013F9AF /* DataModels.swift in Sources */,
+				E787224B29AAD79800A8C6FB /* QuizView.swift in Sources */,
+				E787223D29AAD69800A8C6FB /* ContentView.swift in Sources */,
+				E7E3A32B29B049CD00AEE844 /* SettingsView.swift in Sources */,
+				E787223B29AAD69800A8C6FB /* Blue_LightApp.swift in Sources */,
+				E761836429C0A3AF003D02A9 /* DataController .swift in Sources */,
+				E7D0814429AC393700D2247B /* BluetoothController.swift in Sources */,
+				E787224D29AAD7B100A8C6FB /* ShowDataView.swift in Sources */,
+				E7D0814229AC087300D2247B /* PeripheralDevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E787224329AAD69A00A8C6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E787224429AAD69A00A8C6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E787224629AAD69A00A8C6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blue Light/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Q7ZL6WJ54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blue-Light-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses bluetooth to connect to glasses";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ft.Blue-Light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E787224729AAD69A00A8C6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blue Light/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Q7ZL6WJ54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blue-Light-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses bluetooth to connect to glasses";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ft.Blue-Light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E787223229AAD69800A8C6FB /* Build configuration list for PBXProject "Blue Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E787224329AAD69A00A8C6FB /* Debug */,
+				E787224429AAD69A00A8C6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E787224529AAD69A00A8C6FB /* Build configuration list for PBXNativeTarget "Blue Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E787224629AAD69A00A8C6FB /* Debug */,
+				E787224729AAD69A00A8C6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E79D420729BA9B6900FB281F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E761836629C0E8D6003D02A9 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E79D420729BA9B6900FB281F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		E79D420829BA9B6900FB281F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E79D420729BA9B6900FB281F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E787222F29AAD69800A8C6FB /* Project object */;
+}
